@@ -1,0 +1,950 @@
+{
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/01- Bordeaux, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/02- Paris, 2015.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/03- Paris, 2025.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/04- Prague, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/05- Paris, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/06- Courdimanche, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/07- Paris, 2025.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/08- Strasbourg, 2023.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/09- Courdimanche, 2022.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/10- Paris, 2015.JPG": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/11- Paris, 2025.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/12- Bordeaux, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/13- Paris, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/14- Courdimanche, 2022.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/15- Paris, 2025.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/16- Chevreuse, 2025.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/17- Paris, 2016.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/18- Cergy, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/19- Bordeaux, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/20- Paris, 2016.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/21- Paris, 2025.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/22- Courdimanche, 2025.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/23- Paris, 2015.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/24- Argenteuil, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/25- Paris, 2025.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/26- Bordeaux, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/27- Paris, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/28- Paris, 2025.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/29- Courdimanche, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/01- Entre Noir et Blanc/30- Paris, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/01- Prague, 2024.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/02- Paris, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/03- Bruxelles, 2022.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/04- Courdimanche, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/05- Paris, 2023.jpg": {
+    "w": 1519,
+    "h": 2048,
+    "r": 0.742,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/06- Paris, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/07- Bordeaux, 2023.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/08- Paris, 2025.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/09- Bièvres, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/10- Lyon, 2023.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/11- Paris, 2024.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/12- Paris, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/13- Bruxelles, 2022.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/14- Serris, 2023.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/15- Paris, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/16- Bruxelles, 2022.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/17- Paris, 2021.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/18- Metz, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/19- Paris, 2022.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/20- Prague, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/21- Courdimanche, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/22- Paris, 2025.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/23- Paris, 2024.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/24- Bordeaux, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/25- Courdimanche, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/26- Paris, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/27- Lyon, 2023.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/28- Paris, 2023.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/29- Paris, 2024.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/30- Bruxelles, 2022.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/03- Lignes de Ville, Lignes de Vie/01- Les lignes de la solitude.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/03- Lignes de Ville, Lignes de Vie/02- Les lignes du passage.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/03- Lignes de Ville, Lignes de Vie/03- Les lignes géométriques.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/03- Lignes de Ville, Lignes de Vie/04- Les lignes enneigées.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/03- Lignes de Ville, Lignes de Vie/05- Les lignes monumentales.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/03- Lignes de Ville, Lignes de Vie/06- Les lignes royales.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/03- Lignes de Ville, Lignes de Vie/07- Les lignes en marche.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/03- Lignes de Ville, Lignes de Vie/08- Les lignes de lumière.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/03- Lignes de Ville, Lignes de Vie/09- Les lignes de la liberté.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/03- Lignes de Ville, Lignes de Vie/10- Les lignes du temps.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/01- Station Auber - Paris.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/02- Station Hénon - Lyon.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/03- RER A - Paris.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/04- Station Aumale - Bruxelles.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/05- Station Concorde - Paris.jpg": {
+    "w": 1519,
+    "h": 2048,
+    "r": 0.742,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/06- Station Můstek - Prague.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/07- Gare Saint-Lazare - Paris.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/08- Station Auvers-sur-Oise - Auvers-sur-Oise.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/09- Station Pont de Saint-Cloud - Paris.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/10-Station Croix - Lille.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/11- Auber - Paris.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/12- Station Jiřího z Poděbrad - Prague.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/13- Marne-la-Vallée–Chessy - Marne-la-Vallée.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/14- Station Aumale - Bruxelles.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/15 - Station Invalides - Paris.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/16- Station Maelbeek - Bruxelles.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/17- Station La Défense - Paris.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/18- Station Nádraží Veleslavín - Prague.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/19- Station Auvers-sur-Oise - Auvers-sur-Oise.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/04- Métro, Boulot, Photo/20- Arrêt Rue de l_Université - Lyon.jpg": {
+    "w": 2048,
+    "h": 1536,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/05- Double Vision/01- Écho de Verre.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/05- Double Vision/02- La Ville en Éclats.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/05- Double Vision/03- Rêverie Symétrique.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/05- Double Vision/04- La Gravité des Illusions.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/05- Double Vision/05- Entre Deux Mondes.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/05- Double Vision/06- Reflet Olympien.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/05- Double Vision/07- Heures Miroirs.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/05- Double Vision/08- L’Homme-Miroir.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/05- Double Vision/09- Le Pont des Reflets.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/05- Double Vision/10- L’ombre d’une nation.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/06- Une histoire de fenêtre/01- Fenêtre entre les lignes.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/06- Une histoire de fenêtre/02- Fenêtres en veille.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/06- Une histoire de fenêtre/03- Fenêtre au chat rêveur.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/06- Une histoire de fenêtre/04- Fenêtre brodée d’histoires.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/06- Une histoire de fenêtre/05- Fenêtre à l’affût.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/06- Une histoire de fenêtre/06- Fenêtre en floraison.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/06- Une histoire de fenêtre/07- Fenêtre du déjeuner.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/06- Une histoire de fenêtre/08- Fenêtre au charme oublié.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/06- Une histoire de fenêtre/09- Fenêtres sur dissonance.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/1- Une sélection de mes meilleures photos/06- Une histoire de fenêtre/10- Fenêtre dans la fenêtre.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/2- Logo/Logo blanc.png": {
+    "w": 1000,
+    "h": 500,
+    "r": 2,
+    "o": "landscape"
+  },
+  "/assets/2- Logo/Logo noir.png": {
+    "w": 1000,
+    "h": 500,
+    "r": 2,
+    "o": "landscape"
+  },
+  "/assets/3- Portrait/Portrait.jpg": {
+    "w": 1973,
+    "h": 1973,
+    "r": 1,
+    "o": "square"
+  },
+  "/assets/5- Publications/01- Street Photography France n°04/01.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/5- Publications/01- Street Photography France n°04/02.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/5- Publications/02- Street Photography France Women/01.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/5- Publications/02- Street Photography France Women/02.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/6- Concours/2024- Vos rues en noir et blanc/01.jpg": {
+    "w": 2048,
+    "h": 2048,
+    "r": 1,
+    "o": "square"
+  },
+  "/assets/6- Concours/2024- Vos rues en noir et blanc/02.jpg": {
+    "w": 2048,
+    "h": 2048,
+    "r": 1,
+    "o": "square"
+  },
+  "/assets/6- Concours/2025- Reading the Streets/01.jpg": {
+    "w": 2048,
+    "h": 2048,
+    "r": 1,
+    "o": "square"
+  },
+  "/assets/6- Concours/2025- Reading the Streets/02.jpg": {
+    "w": 2048,
+    "h": 2048,
+    "r": 1,
+    "o": "square"
+  },
+  "/assets/7- Expositions/01- 2025- La Quinzaine des Photographes/La Quinzaine des Photographes.jpg": {
+    "w": 769,
+    "h": 1080,
+    "r": 0.712,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/31- Lorient, 2025.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/33- Montpellier, 2025.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/34- Paris, 2025.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/35- Versailles, 2025.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/36- Paris, 2025.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/37- Narbonne, 2025.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/38- Paris, 2025.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/39- Chevreuse, 2025.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/1- Une sélection de mes meilleures photos/02- Instants Chromatiques/40- Cergy, 2025.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/1- Une sélection de mes meilleures photos/05- Double Vision/11- Pluie sur peintures vivantes.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/1- Une sélection de mes meilleures photos/05- Double Vision/12- L’axe du doute.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/1- Une sélection de mes meilleures photos/06- Une histoire de fenêtre/11- Fenêtre du cacatoès.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/1- Une sélection de mes meilleures photos/06- Une histoire de fenêtre/12- Fenêtres et passage du temps.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/1- Une sélection de mes meilleures photos/06- Une histoire de fenêtre/13- Fenêtre du relais.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/1- Une sélection de mes meilleures photos/06- Une histoire de fenêtre/14- Fenêtre du bien-être.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/5- Publications/01- CosMag numéro 2/01.jpg": {
+    "w": 2000,
+    "h": 1500,
+    "r": 1.333,
+    "o": "landscape"
+  },
+  "/assets/MAJ janvier 2026/5- Publications/02- Street Photography France n°04/01.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/5- Publications/02- Street Photography France n°04/02.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/5- Publications/03- Street Photography France Women/01.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/5- Publications/03- Street Photography France Women/02.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/5- Publications/04- À livres ouverts_ lecteurs multiples, un seul monde…/01.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/5- Publications/04- À livres ouverts_ lecteurs multiples, un seul monde…/02.jpg": {
+    "w": 1536,
+    "h": 2048,
+    "r": 0.75,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/5- Publications/05- La France en rue - Le livre du Salon de Soissons/01.jpg": {
+    "w": 2000,
+    "h": 2000,
+    "r": 1,
+    "o": "square"
+  },
+  "/assets/MAJ janvier 2026/5- Publications/06- Street Photography France Tome I/01.jpg": {
+    "w": 2000,
+    "h": 2000,
+    "r": 1,
+    "o": "square"
+  },
+  "/assets/MAJ janvier 2026/5- Publications/06- Street Photography France Tome I/02.jpg": {
+    "w": 2222,
+    "h": 2216,
+    "r": 1.003,
+    "o": "landscape"
+  },
+  "/assets/MAJ janvier 2026/5- Publications/06- Street Photography France Tome I/03.jpg": {
+    "w": 2216,
+    "h": 2236,
+    "r": 0.991,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/5- Publications/07- Sur un air de photographies, musiques et musiciens/01.jpg": {
+    "w": 3078,
+    "h": 3170,
+    "r": 0.971,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/5- Publications/07- Sur un air de photographies, musiques et musiciens/02.jpg": {
+    "w": 3078,
+    "h": 3170,
+    "r": 0.971,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/5- Publications/07- Sur un air de photographies, musiques et musiciens/03.jpg": {
+    "w": 3078,
+    "h": 3170,
+    "r": 0.971,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/7- Expositions/01- 2017 - Rencontres Photographiques du 10e Arrondissement/01.jpg": {
+    "w": 678,
+    "h": 960,
+    "r": 0.706,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/7- Expositions/02- 2019 - Lumos/01.jpg": {
+    "w": 1448,
+    "h": 2048,
+    "r": 0.707,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/7- Expositions/03- 2025- La Quinzaine des Photographes/01.jpg": {
+    "w": 769,
+    "h": 1080,
+    "r": 0.712,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/7- Expositions/04- 2025 - Paris on Film/01.jpg": {
+    "w": 1646,
+    "h": 2048,
+    "r": 0.804,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/7- Expositions/04- 2025 - Paris on Film/02.jpg": {
+    "w": 1646,
+    "h": 2048,
+    "r": 0.804,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/7- Expositions/05- 2025 - Festival de la Photo Urbaine de Fabrègues/01.jpg": {
+    "w": 707,
+    "h": 1000,
+    "r": 0.707,
+    "o": "portrait"
+  },
+  "/assets/MAJ janvier 2026/7- Expositions/06- 2025 - Body/01.jpg": {
+    "w": 1200,
+    "h": 1575,
+    "r": 0.762,
+    "o": "portrait"
+  }
+}

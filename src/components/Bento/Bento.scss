@@ -1,0 +1,136 @@
+@use '../../styles/mixins' as *;
+
+.bento {
+  padding-block: var(--space-89) var(--space-144);
+}
+
+.bento__head {
+  display: grid;
+  gap: var(--space-21);
+  margin-bottom: var(--space-55);
+}
+
+.bento__head-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-top: 1px solid var(--color-line);
+  padding-top: var(--space-13);
+}
+
+.bento__head-index {
+  color: var(--color-faint);
+  font-size: var(--fs-caption);
+}
+
+.bento__title {
+  margin: 0;
+}
+
+// Fixed bento grid. Every cell has a set size and images crop (object-fit:
+// cover) to fill it, so there are no gaps. The size pattern tiles perfectly
+// at 1 / 2 / 4 columns.
+.bento__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 20rem;
+  gap: var(--space-8);
+
+  @include sm {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 18rem;
+    grid-auto-flow: dense;
+  }
+
+  @include lg {
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 17rem;
+  }
+}
+
+.bento__cell {
+  position: relative;
+  min-height: 0;
+}
+
+.bento--wide {
+  @include sm {
+    grid-column: span 2;
+  }
+}
+
+.bento--tall {
+  @include sm {
+    grid-row: span 2;
+  }
+}
+
+// Every tile's content fills the cell exactly so images cover both dimensions.
+.bento__cell > * {
+  position: absolute;
+  inset: 0;
+}
+
+.bento__cell .pcard {
+  display: flex;
+  flex-direction: column;
+}
+
+.bento__cell .pcard__frame {
+  flex: 1 1 auto;
+  min-height: 0;
+  aspect-ratio: auto;
+}
+
+.bento__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--space-13);
+  height: 100%;
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  padding: var(--space-21);
+}
+
+.bento__count {
+  color: var(--color-accent);
+  line-height: 0.8;
+}
+
+.bento__text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: var(--fs-caption);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--color-text-soft);
+  margin-top: var(--space-13);
+
+  &:hover {
+    color: var(--color-text);
+  }
+}
+
+.bento__portrait {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(0.2);
+  }
+}
+
+.bento__portrait-cap {
+  position: absolute;
+  left: var(--space-13);
+  bottom: var(--space-13);
+  color: var(--color-text);
+  mix-blend-mode: difference;
+}

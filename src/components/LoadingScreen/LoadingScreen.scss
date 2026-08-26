@@ -1,0 +1,77 @@
+@use '../../styles/mixins' as *;
+
+.loader {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg);
+  opacity: 1;
+  transition: opacity 0.8s var(--ease-smooth), visibility 0.8s var(--ease-smooth);
+  will-change: opacity;
+
+  &--hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
+.loader__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-34);
+  width: min(90vw, 40rem);
+}
+
+.loader__logo {
+  height: clamp(3rem, 9vw, 5.5rem);
+  width: auto;
+  filter: drop-shadow(0 2px 18px rgba(0, 0, 0, 0.45));
+}
+
+.loader__marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+}
+
+.loader__track {
+  display: inline-flex;
+  animation: loader-marquee 14s linear infinite;
+
+  span {
+    font-family: var(--font-mono);
+    font-size: var(--fs-caption);
+    letter-spacing: 0.22em;
+    color: var(--color-muted);
+    padding-right: 0;
+  }
+}
+
+.loader__bar {
+  width: 100%;
+  height: 1px;
+  background: var(--color-line);
+  overflow: hidden;
+}
+
+.loader__fill {
+  display: block;
+  height: 100%;
+  background: var(--color-accent);
+  transition: width 0.2s linear;
+}
+
+@keyframes loader-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

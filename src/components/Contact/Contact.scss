@@ -1,0 +1,135 @@
+@use '../../styles/mixins' as *;
+
+.contact {
+  padding-block: var(--space-89) var(--space-144);
+}
+
+.contact__inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-55);
+
+  @include lg {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-89);
+    align-items: start;
+  }
+}
+
+.contact__label {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-top: 1px solid var(--color-line);
+  padding-top: var(--space-13);
+}
+
+.contact__index {
+  color: var(--color-faint);
+  font-size: var(--fs-caption);
+}
+
+.contact__title {
+  margin: var(--space-21) 0 0;
+}
+
+.contact__intro {
+  max-width: 32rem;
+  color: var(--color-text-soft);
+}
+
+.contact__social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-21);
+  margin-top: var(--space-34);
+  border-top: 1px solid var(--color-line);
+  padding-top: var(--space-21);
+}
+
+.contact__social-link {
+  font-family: var(--font-mono);
+  font-size: var(--fs-small);
+  color: var(--color-text-soft);
+  transition: color var(--dur-fast) var(--ease-smooth);
+
+  &:hover {
+    color: var(--color-accent);
+  }
+}
+
+.contact__form {
+  display: grid;
+  gap: var(--space-21);
+  border: 1px solid var(--color-line);
+  background: var(--color-surface);
+  padding: var(--space-34);
+
+  @include md {
+    padding: var(--space-55);
+  }
+}
+
+.contact__field {
+  display: grid;
+  gap: 0.5rem;
+
+  span {
+    color: var(--color-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+  }
+
+  input,
+  textarea {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--color-line-strong);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: var(--fs-body);
+    padding: 0.6rem 0;
+    resize: vertical;
+    transition: border-color var(--dur-fast) var(--ease-smooth);
+
+    &:focus {
+      outline: none;
+      border-color: var(--color-accent);
+    }
+  }
+}
+
+.contact__submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: var(--space-13);
+  background: var(--color-text);
+  color: var(--color-bg);
+  padding: 1rem 1.4rem;
+  font-family: var(--font-mono);
+  font-size: var(--fs-caption);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  transition: background-color var(--dur-fast) var(--ease-smooth),
+    transform var(--dur-fast) var(--ease-editorial);
+
+  span:last-child {
+    transition: transform var(--dur-fast) var(--ease-editorial);
+  }
+
+  &:hover {
+    background: var(--color-accent);
+
+    span:last-child {
+      transform: translateX(0.4rem);
+    }
+  }
+}
+
+.contact__note {
+  color: var(--color-faint);
+  margin: 0;
+}

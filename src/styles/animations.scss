@@ -1,0 +1,141 @@
+// Global, reusable animation primitives (keyframes + reveal states).
+// Complex interaction animations stay with their component.
+
+@keyframes mm-fade-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 2.2rem, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes mm-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes mm-clip-up {
+  from {
+    clip-path: inset(100% 0 0 0);
+    opacity: 0;
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+  }
+}
+
+@keyframes mm-blur-in {
+  from {
+    opacity: 0;
+    filter: blur(14px);
+    transform: scale(1.04);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+}
+
+@keyframes mm-marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+// Reveal primitives — toggled by IntersectionObserver (adds .is-inview)
+.reveal {
+  opacity: 0;
+  will-change: opacity, transform;
+}
+
+.reveal--up {
+  transform: translate3d(0, 2.4rem, 0);
+}
+
+.reveal--clip {
+  clip-path: inset(100% 0 0 0);
+  opacity: 0;
+}
+
+.reveal--blur {
+  filter: blur(14px);
+  transform: scale(1.04);
+}
+
+.reveal.is-inview {
+  animation: mm-fade-up var(--dur-med) var(--ease-editorial) both;
+  animation-delay: var(--reveal-delay, 0s);
+}
+
+.reveal.reveal--fade.is-inview {
+  animation-name: mm-fade-in;
+}
+
+.reveal.reveal--clip.is-inview {
+  animation-name: mm-clip-up;
+  animation-duration: var(--dur-slow);
+}
+
+.reveal.reveal--blur.is-inview {
+  animation-name: mm-blur-in;
+  animation-duration: var(--dur-slow);
+}
+
+// Stagger helper: children of a .reveal-group animate in sequence.
+.reveal-group > * {
+  opacity: 0;
+  transform: translate3d(0, 2rem, 0);
+}
+
+.reveal-group.is-inview > * {
+  animation: mm-fade-up var(--dur-med) var(--ease-editorial) both;
+}
+
+.reveal-group.is-inview > *:nth-child(1) { animation-delay: 0.05s; }
+.reveal-group.is-inview > *:nth-child(2) { animation-delay: 0.15s; }
+.reveal-group.is-inview > *:nth-child(3) { animation-delay: 0.25s; }
+.reveal-group.is-inview > *:nth-child(4) { animation-delay: 0.35s; }
+.reveal-group.is-inview > *:nth-child(5) { animation-delay: 0.45s; }
+.reveal-group.is-inview > *:nth-child(6) { animation-delay: 0.55s; }
+.reveal-group.is-inview > *:nth-child(7) { animation-delay: 0.65s; }
+.reveal-group.is-inview > *:nth-child(8) { animation-delay: 0.75s; }
+
+// Page-enter choreography
+@keyframes mm-page-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.page-enter {
+  animation: mm-page-in 0.6s var(--ease-editorial) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal--up,
+  .reveal--clip,
+  .reveal--blur,
+  .reveal-group > * {
+    opacity: 1 !important;
+    transform: none !important;
+    clip-path: none !important;
+    filter: none !important;
+    animation: none !important;
+  }
+}

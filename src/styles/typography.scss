@@ -1,0 +1,85 @@
+// Global typographic hierarchy. Fibonacci-driven, fluid, proportional
+// between desktop and mobile. Components may override for artistic reasons
+// but should prefer these tokens.
+
+.t-display {
+  font-family: var(--font-display);
+  font-size: var(--fs-display);
+  font-weight: 500;
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+}
+
+.t-h1 {
+  font-family: var(--font-display);
+  font-size: var(--fs-h1);
+  font-weight: 500;
+  line-height: 0.98;
+  letter-spacing: -0.015em;
+}
+
+.t-h2 {
+  font-family: var(--font-display);
+  font-size: var(--fs-h2);
+  font-weight: 500;
+  line-height: 1.02;
+  letter-spacing: -0.01em;
+}
+
+.t-h3 {
+  font-family: var(--font-display);
+  font-size: var(--fs-h3);
+  font-weight: 600;
+  line-height: 1.08;
+}
+
+.t-h4 {
+  font-family: var(--font-display);
+  font-size: var(--fs-h4);
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.t-lead {
+  font-size: var(--fs-lead);
+  line-height: 1.55;
+  font-weight: 300;
+  color: var(--color-text-soft);
+}
+
+.t-body {
+  font-size: var(--fs-body);
+  line-height: 1.65;
+}
+
+.t-small {
+  font-size: var(--fs-small);
+}
+
+.t-caption {
+  font-size: var(--fs-caption);
+  letter-spacing: 0.04em;
+}
+
+// Editorial label / eyebrow
+.t-label {
+  font-family: var(--font-mono);
+  font-size: var(--fs-caption);
+  text-transform: uppercase;
+  letter-spacing: 0.32em;
+  color: var(--color-muted);
+  font-weight: 400;
+}
+
+.t-mono {
+  font-family: var(--font-mono);
+}
+
+// Italic display accent
+.t-italic {
+  font-style: italic;
+}
+
+.t-accent {
+  color: var(--color-accent);
+}

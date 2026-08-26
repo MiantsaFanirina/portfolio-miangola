@@ -1,0 +1,58 @@
+// Shared SCSS mixins/tools for component stylesheets.
+
+@use 'sass:math';
+
+// Breakpoints as SCSS vars for use in @media within components.
+$bp-sm: 30rem; // 480
+$bp-md: 48rem; // 768
+$bp-lg: 64rem; // 1024
+$bp-xl: 80rem; // 1280
+
+// Media-query helpers (mobile-first). Usage: @include md { ... }
+@mixin sm {
+  @media (min-width: $bp-sm) {
+    @content;
+  }
+}
+@mixin md {
+  @media (min-width: $bp-md) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: $bp-lg) {
+    @content;
+  }
+}
+@mixin xl {
+  @media (min-width: $bp-xl) {
+    @content;
+  }
+}
+
+// Max-width helpers for desktop-down overrides.
+@mixin below($bp) {
+  @media (max-width: $bp) {
+    @content;
+  }
+}
+
+// Fluid clamp helper
+@function fluid($min, $pref, $max) {
+  @return clamp(#{$min}, #{$pref}, #{$max});
+}
+
+// Aspect-ratio frame for images (prevents layout shift).
+@mixin frame($ratio: 3 / 4) {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: $ratio;
+
+  > img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

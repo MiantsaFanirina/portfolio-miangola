@@ -1,0 +1,61 @@
+@use '../../styles/mixins' as *;
+
+.pgallery {
+  display: block;
+}
+
+.pgallery__row {
+  & + & {
+    margin-top: var(--space-21);
+  }
+}
+
+// Landscape: full container width, real (uncropped) height.
+.pgallery__img-land {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+// Portrait pair: two columns that stretch to a shared height; the shorter
+// image is cropped to match. Real ratios are kept via the column aspect-ratio.
+.pgallery__pair {
+  display: flex;
+  align-items: stretch;
+  gap: var(--space-13);
+
+  @include md {
+    gap: var(--space-21);
+  }
+}
+
+.pgallery__pcol {
+  flex: 1 1 0;
+  min-width: 0;
+  position: relative;
+  overflow: hidden;
+  background: var(--color-surface);
+}
+
+.pgallery__img,
+.pgallery__img-land {
+  cursor: zoom-in;
+}
+
+.pgallery__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--dur-slow) var(--ease-editorial);
+}
+
+.pgallery--mono .pgallery__img,
+.pgallery--mono .pgallery__img-land {
+  filter: grayscale(1) contrast(1.05);
+}
+
+.pgallery__row:hover .pgallery__img,
+.pgallery__row:hover .pgallery__img-land {
+  transform: scale(1.03);
+}
