@@ -48,12 +48,16 @@
   overflow: hidden;
   height: clamp(20rem, 26vw, 28rem);
   background: var(--color-surface);
+  touch-action: pan-y;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .archives__track {
   display: flex;
   height: 100%;
   transition: transform var(--dur-med) var(--ease-smooth);
+  will-change: transform;
 }
 
 .archives__slide {
