@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useLanguage } from '../../context/LanguageContext';
 import { about, brand } from '../../data/content';
 import { asset } from '../../utils/asset';
@@ -56,10 +57,10 @@ export function About() {
           </Reveal>
 
           <Reveal variant="fade" delay={0.3}>
-            <a href="/about" className="about__more">
+            <Link to="/about" className="about__more">
               {t.nav.about}
               <span aria-hidden="true">→</span>
-            </a>
+            </Link>
           </Reveal>
         </div>
       </div>
