@@ -43,6 +43,11 @@ export const en = {
     toLight: 'Switch to light mode',
     toDark: 'Switch to dark mode',
   },
+  notFound: {
+    title: 'Page not found',
+    text: 'The page you’re looking for doesn’t exist, or may have been moved.',
+    back: 'Back to home',
+  },
 };
 
 export type UI = typeof en;

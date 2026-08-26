@@ -45,4 +45,9 @@ export const fr: UI = {
     toLight: 'Passer en mode clair',
     toDark: 'Passer en mode sombre',
   },
+  notFound: {
+    title: 'Page introuvable',
+    text: 'La page que vous recherchez n’existe pas ou a été déplacée.',
+    back: 'Retour à l’accueil',
+  },
 };

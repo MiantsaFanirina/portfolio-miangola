@@ -7,6 +7,7 @@ import { LoadingScreen } from './components/LoadingScreen/LoadingScreen';
 import { Home } from './pages/Home/Home';
 import { Project } from './pages/Project/Project';
 import { AboutPage } from './pages/About/About';
+import { NotFound } from './pages/NotFound/NotFound';
 import { scrollToId } from './utils/scroll';
 
 function Layout() {
@@ -38,8 +39,8 @@ export default function App() {
       <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/work/:slug" element={<Project />} />
-        <Route path="*" element={<Home />} />
+      <Route path="/work/:slug" element={<Project />} />
+      <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
   );
