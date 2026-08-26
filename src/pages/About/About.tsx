@@ -12,25 +12,25 @@ export function AboutPage() {
   const { tx } = useLanguage();
 
   const pubItems: ArchiveItem[] = publications.map((p) => ({
-    title: p.title,
-    sub: p.detail,
+    title: tx(p.title),
+    sub: tx(p.detail),
     meta: p.year,
     link: p.link,
     images: p.images,
   }));
 
   const compItems: ArchiveItem[] = competitions.map((c) => ({
-    title: c.title,
-    sub: c.detail,
+    title: tx(c.title),
+    sub: tx(c.detail),
     meta: c.year,
     link: c.link,
     images: c.images,
   }));
 
   const expItems: ArchiveItem[] = exhibitions.map((e) => ({
-    title: e.title,
-    sub: e.detail,
-    meta: `${e.place} · ${e.date}`,
+    title: tx(e.title),
+    sub: tx(e.detail),
+    meta: `${tx(e.place)} · ${e.date}`,
     link: e.link,
     images: e.images,
   }));
