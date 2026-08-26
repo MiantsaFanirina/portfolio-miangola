@@ -20,7 +20,9 @@ interface ArchivesProps {
 }
 
 export function Archives({ eyebrow, title, items }: ArchivesProps) {
-  const [lightbox, setLightbox] = useState<{ src: string; alt?: string } | null>(null);
+  const [lightbox, setLightbox] = useState<{ images: string[]; index: number; alt?: string } | null>(
+    null,
+  );
 
   return (
     <section className="archives">
@@ -38,9 +40,11 @@ export function Archives({ eyebrow, title, items }: ArchivesProps) {
       </div>
 
       <Lightbox
-        src={lightbox?.src ?? null}
+        images={lightbox?.images ?? null}
+        index={lightbox?.index ?? 0}
         alt={lightbox?.alt}
         onClose={() => setLightbox(null)}
+        onIndexChange={(i) => setLightbox((l) => (l ? { ...l, index: i } : l))}
       />
     </section>
   );
@@ -53,7 +57,7 @@ function ArchiveCard({
 }: {
   item: ArchiveItem;
   index: number;
-  onOpen: (v: { src: string; alt?: string }) => void;
+  onOpen: (v: { images: string[]; index: number; alt?: string }) => void;
 }) {
   const { lang } = useLanguage();
   const imgs = item.images ?? [];
@@ -85,9 +89,9 @@ function ArchiveCard({
     setDrag(0);
   };
 
-  const open = (src: string) => {
+  const open = (ti: number) => {
     if (swiped.current) return;
-    onOpen({ src, alt: item.title });
+    onOpen({ images: imgs, index: ti, alt: item.title });
   };
 
   const dragging = drag !== 0;
@@ -113,7 +117,7 @@ function ArchiveCard({
                 type="button"
                 key={ti}
                 className="archives__slide"
-                onClick={() => open(src)}
+                onClick={() => open(ti)}
                 aria-label={item.title}
               >
                 <img src={asset(src)} alt={item.title} loading="lazy" decoding="async" />

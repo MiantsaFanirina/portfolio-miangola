@@ -139,9 +139,11 @@ export function Project() {
       </nav>
 
       <Lightbox
-        src={lightbox?.src ?? null}
+        images={lightbox ? [lightbox.src] : null}
+        index={0}
         alt={lightbox?.alt}
         onClose={() => setLightbox(null)}
+        onIndexChange={() => {}}
       />
     </main>
   );
