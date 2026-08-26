@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import { asset } from '../../utils/asset';
 import './Lightbox.scss';
@@ -26,7 +27,7 @@ export function Lightbox({ src, alt = '', onClose }: LightboxProps) {
     };
   }, [src, onClose]);
 
-  return (
+  return createPortal(
     <AnimatePresence>
       {src && (
         <motion.div
@@ -60,6 +61,7 @@ export function Lightbox({ src, alt = '', onClose }: LightboxProps) {
           </button>
         </motion.div>
       )}
-    </AnimatePresence>
+    </AnimatePresence>,
+    document.body,
   );
 }

@@ -39,6 +39,10 @@ export const en = {
     fr: 'FR',
     en: 'EN',
   },
+  theme: {
+    toLight: 'Switch to light mode',
+    toDark: 'Switch to dark mode',
+  },
 };
 
 export type UI = typeof en;

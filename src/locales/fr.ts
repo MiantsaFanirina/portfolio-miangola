@@ -41,4 +41,8 @@ export const fr: UI = {
     fr: 'FR',
     en: 'EN',
   },
+  theme: {
+    toLight: 'Passer en mode clair',
+    toDark: 'Passer en mode sombre',
+  },
 };

@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import { LanguageProvider } from './context/LanguageContext';
+import { ThemeProvider } from './context/ThemeContext';
 import './styles/tokens.scss';
 import './styles/globals.scss';
 import './styles/typography.scss';
@@ -13,7 +14,9 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
       <LanguageProvider>
-        <App />
+        <ThemeProvider>
+          <App />
+        </ThemeProvider>
       </LanguageProvider>
     </BrowserRouter>
   </StrictMode>,

@@ -6,7 +6,7 @@
   display: flex;
   align-items: flex-end;
   overflow: hidden;
-  color: var(--color-text);
+  color: var(--color-on-media);
 }
 
 .hero__media {
@@ -36,7 +36,7 @@
       rgba(14, 13, 11, 0.55) 0%,
       rgba(14, 13, 11, 0.15) 35%,
       rgba(14, 13, 11, 0.65) 78%,
-      var(--color-bg) 100%
+      rgba(14, 13, 11, 0.95) 100%
     );
 }
 
@@ -97,7 +97,7 @@
   align-items: center;
   gap: var(--space-13);
   margin-top: var(--space-34);
-  color: var(--color-text-soft);
+  color: var(--color-on-media);
   font-size: var(--fs-caption);
   letter-spacing: 0.2em;
   text-transform: uppercase;

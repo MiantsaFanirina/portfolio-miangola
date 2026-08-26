@@ -79,6 +79,22 @@
   gap: var(--space-21);
 }
 
+.nav__theme {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  color: var(--color-text);
+  transition: color var(--dur-fast) var(--ease-smooth),
+    transform var(--dur-fast) var(--ease-editorial);
+
+  &:hover {
+    color: var(--color-accent);
+    transform: rotate(-12deg);
+  }
+}
+
 .nav__lang {
   display: inline-flex;
   align-items: center;
@@ -116,6 +132,46 @@
 
   @include md {
     display: none;
+  }
+}
+
+// While the header sits over a dark hero in light mode, force its chrome to the
+// light "on-media" color so it stays legible until the hero is scrolled past.
+.nav--hero-light {
+  .nav__link {
+    color: var(--color-on-media);
+
+    &:hover {
+      color: var(--color-on-media);
+    }
+
+    &::after {
+      background: var(--color-on-media);
+    }
+  }
+
+  .nav__lang {
+    color: var(--color-on-media);
+
+    .is-active {
+      color: var(--color-on-media);
+    }
+  }
+
+  .nav__lang-sep {
+    color: var(--color-on-media);
+  }
+
+  .nav__theme {
+    color: var(--color-on-media);
+
+    &:hover {
+      color: var(--color-on-media);
+    }
+  }
+
+  .nav__burger span {
+    background: var(--color-on-media);
   }
 }
 
@@ -157,6 +213,6 @@
 
 .nav__sheet-link {
   font-family: var(--font-display);
-  font-size: var(--fs-h3);
+  font-size: var(--fs-h4);
   color: var(--color-text);
 }
