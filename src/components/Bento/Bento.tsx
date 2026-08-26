@@ -64,7 +64,7 @@ export function Bento() {
       return (
         <motion.div key={key} className={`bento__cell bento--${tile.size}`} {...cellMotion(i)}>
           <div className="bento__portrait">
-            <img src={asset(brand.portrait)} alt={tx(hero.title)} loading="lazy" />
+            <img src={asset(brand.portrait)} alt={tx(hero.title)} loading="lazy" decoding="async" />
             <span className="bento__portrait-cap t-caption">Meja Miangola</span>
           </div>
         </motion.div>

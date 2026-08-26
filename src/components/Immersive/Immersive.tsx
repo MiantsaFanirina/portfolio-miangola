@@ -19,8 +19,8 @@ export function Immersive() {
           src={asset(immersive)}
           alt="Paris — La Défense transit"
           className="immersive__img"
-          fetchPriority="high"
-          decoding="sync"
+          loading="lazy"
+          decoding="async"
         />
       </motion.div>
 

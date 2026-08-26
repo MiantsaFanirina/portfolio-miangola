@@ -51,7 +51,7 @@ export function Project() {
             alt={tx(project.title)}
             className="project__hero-img"
             fetchPriority="high"
-            decoding="sync"
+            decoding="async"
             role="button"
             tabIndex={0}
             onClick={() => setLightbox({ src: project.cover, alt: tx(project.title) })}

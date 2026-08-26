@@ -60,6 +60,9 @@
 .project__hero-cat {
   display: block;
   margin-bottom: var(--space-13);
+}
+
+.project__hero-cat.t-label {
   color: var(--color-on-media);
 }
 

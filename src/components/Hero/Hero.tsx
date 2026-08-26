@@ -23,7 +23,7 @@ export function Hero() {
           alt=""
           className="hero__img"
           fetchPriority="high"
-          decoding="sync"
+          decoding="async"
         />
       </motion.div>
 
