@@ -61,7 +61,8 @@ function ArchiveCard({
   const [drag, setDrag] = useState(0);
   const startX = useRef<number | null>(null);
   const swiped = useRef(false);
-  const go = (dir: number) => setPos((p) => (p + dir + imgs.length) % imgs.length);
+  const go = (dir: number) =>
+    setPos((p) => Math.max(0, Math.min(imgs.length - 1, p + dir)));
 
   const onTouchStart = (e: TouchEvent) => {
     startX.current = e.touches[0].clientX;
@@ -70,7 +71,8 @@ function ArchiveCard({
 
   const onTouchMove = (e: TouchEvent) => {
     if (startX.current === null) return;
-    const dx = e.touches[0].clientX - startX.current;
+    let dx = e.touches[0].clientX - startX.current;
+    if ((pos === 0 && dx > 0) || (pos === imgs.length - 1 && dx < 0)) dx = 0;
     if (Math.abs(dx) > 6) swiped.current = true;
     setDrag(dx);
   };
@@ -119,25 +121,29 @@ function ArchiveCard({
             ))}
           </div>
 
-          {imgs.length > 1 && (
-            <>
+        {imgs.length > 1 && (
+          <>
+            {pos > 0 && (
               <button
                 type="button"
                 className="archives__nav archives__nav--prev"
-                onClick={() => go(-1)}
                 aria-label="Previous image"
+                onClick={() => go(-1)}
               >
                 <span aria-hidden="true">‹</span>
               </button>
+            )}
+            {pos < imgs.length - 1 && (
               <button
                 type="button"
                 className="archives__nav archives__nav--next"
-                onClick={() => go(1)}
                 aria-label="Next image"
+                onClick={() => go(1)}
               >
                 <span aria-hidden="true">›</span>
               </button>
-              <div className="archives__dots">
+            )}
+            <div className="archives__dots">
                 {imgs.map((_, di) => (
                   <button
                     type="button"
