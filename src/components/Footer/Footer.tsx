@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../../context/LanguageContext';
+import { useTheme } from '../../context/ThemeContext';
 import { brand, contact } from '../../data/content';
 import { asset } from '../../utils/asset';
 import { scrollToId } from '../../utils/scroll';
@@ -7,13 +8,18 @@ import './Footer.scss';
 
 export function Footer() {
   const { t, tx } = useLanguage();
+  const { theme } = useTheme();
   const year = new Date().getFullYear();
 
   return (
     <footer className="footer">
       <div className="container footer__inner">
         <div className="footer__brand">
-          <img src={asset(brand.logoWhite)} alt="Meja Miangola" className="footer__logo" />
+          <img
+            src={asset(theme === 'light' ? brand.logoBlack : brand.logoWhite)}
+            alt="Meja Miangola"
+            className="footer__logo"
+          />
           <p className="footer__tag t-small">{tx({
             en: 'Street · Documentary · Urban photography',
             fr: 'Photographie de rue · documentaire · urbaine',

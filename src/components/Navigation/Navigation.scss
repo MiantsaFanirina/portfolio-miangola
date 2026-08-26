@@ -1,6 +1,7 @@
 @use '../../styles/mixins' as *;
 
 .nav {
+  --nav-h: clamp(5rem, 11vw, 6.5rem);
   position: fixed;
   inset: 0 0 auto 0;
   z-index: var(--z-nav);
@@ -18,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 4.5rem;
+  height: var(--nav-h);
 }
 
 .nav__brand {
@@ -27,7 +28,7 @@
 }
 
 .nav__logo {
-  height: clamp(3rem, 7vw, 4rem);
+  height: clamp(4rem, 9vw, 5.5rem);
   width: auto;
   filter: drop-shadow(0 1px 6px rgba(0, 0, 0, 0.5));
 }
@@ -186,7 +187,7 @@
 
 .nav__sheet {
   position: fixed;
-  inset: 4.5rem 0 auto 0;
+  inset: var(--nav-h) 0 auto 0;
   background: color-mix(in srgb, var(--color-bg) 96%, transparent);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--color-line);

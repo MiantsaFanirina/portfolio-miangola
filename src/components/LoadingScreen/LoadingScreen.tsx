@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react';
 import { brand } from '../../data/content';
 import { asset } from '../../utils/asset';
+import { useTheme } from '../../context/ThemeContext';
 import './LoadingScreen.scss';
 
 const MARQUEE_TEXT = 'STREET · DOCUMENTARY · URBAN · MEJA MIANGOLA · ';
 
 export function LoadingScreen() {
+  const { theme } = useTheme();
   const [progress, setProgress] = useState(0);
   const [done, setDone] = useState(false);
   const [gone, setGone] = useState(false);
@@ -62,7 +64,11 @@ export function LoadingScreen() {
   return (
     <div className={`loader ${done ? 'loader--hidden' : ''}`} role="status" aria-live="polite">
       <div className="loader__inner">
-        <img src={asset(brand.logoWhite)} alt="Meja Miangola" className="loader__logo" />
+        <img
+          src={asset(theme === 'light' ? brand.logoBlack : brand.logoWhite)}
+          alt="Meja Miangola"
+          className="loader__logo"
+        />
 
         <div className="loader__marquee" aria-hidden="true">
           <div className="loader__track">
