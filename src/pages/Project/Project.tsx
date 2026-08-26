@@ -22,6 +22,8 @@ export function Project() {
     window.scrollTo({ top: 0 });
   }, [slug]);
 
+  const [lightbox, setLightbox] = useState<{ src: string; alt?: string } | null>(null);
+
   if (!project) {
     return (
       <main className="project project--missing container">
@@ -34,7 +36,6 @@ export function Project() {
   }
 
   const { prev, next } = getAdjacent(slug);
-  const [lightbox, setLightbox] = useState<{ src: string; alt?: string } | null>(null);
   const related = projects.filter((p) => p.slug !== slug).slice(0, 3);
   // Landscape photos lead as the wide tile; the rest are half-width.
   const relatedSorted = [...related].sort(
