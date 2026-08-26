@@ -1,6 +1,9 @@
 @use '../../styles/mixins' as *;
 
 .immersive {
+  // The immersive section always sits over a dark photograph, so its caption
+  // label (a t-label) should stay a light, consistent tone in both themes.
+  --color-muted: #c0b9ac;
   position: relative;
   height: clamp(28rem, 70vh, 48rem);
   overflow: hidden;

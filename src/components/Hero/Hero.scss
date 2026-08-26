@@ -1,6 +1,11 @@
 @use '../../styles/mixins' as *;
 
 .hero {
+  // The hero always sits over a dark photo/scrim, so its supporting text
+  // (eyebrow, subtitle) should keep the dark-theme muted/soft tones in both
+  // color modes for a consistent look.
+  --color-muted: #c0b9ac;
+  --color-text-soft: #cfc8bb;
   position: relative;
   min-height: 100svh;
   display: flex;
