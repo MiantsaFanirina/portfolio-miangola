@@ -10,7 +10,7 @@ const MotionLink = motion(Link);
 const EASE = [0.16, 1, 0.3, 1] as const;
 
 const cardVariants = {
-  rest: { opacity: 0, clipPath: 'inset(100% 0 0 0)' },
+  rest: { opacity: 1, clipPath: 'inset(0% 0 0 0)' },
   inview: { opacity: 1, clipPath: 'inset(0% 0 0 0)' },
   hover: { opacity: 1, clipPath: 'inset(0% 0 0 0)' },
 };

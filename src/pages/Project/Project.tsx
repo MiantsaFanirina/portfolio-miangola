@@ -109,12 +109,13 @@ export function Project() {
         </Reveal>
         <div className="bento__grid">
           {relatedSorted.map((p, i) => (
-            <div
+            <Reveal
               key={p.id}
+              variant="up"
               className={`bento__cell ${i === 0 ? 'bento--wide' : 'bento--small'}`}
             >
               <ProjectCard project={p} index={i} variant="default" fill />
-            </div>
+            </Reveal>
           ))}
         </div>
       </section>
