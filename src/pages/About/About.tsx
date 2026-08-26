@@ -16,6 +16,7 @@ export function AboutPage() {
     sub: p.detail,
     meta: p.year,
     link: p.link,
+    images: p.images,
   }));
 
   const compItems: ArchiveItem[] = competitions.map((c) => ({
@@ -23,6 +24,7 @@ export function AboutPage() {
     sub: c.detail,
     meta: c.year,
     link: c.link,
+    images: c.images,
   }));
 
   const expItems: ArchiveItem[] = exhibitions.map((e) => ({
@@ -30,6 +32,7 @@ export function AboutPage() {
     sub: e.detail,
     meta: `${e.place} · ${e.date}`,
     link: e.link,
+    images: e.images,
   }));
 
   return (

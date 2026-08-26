@@ -159,30 +159,171 @@ export const services: {
 };
 
 // Publications
-export const publications: { title: string; detail: string; year: string; link?: string }[] = [
-  { title: 'CosMag n°2', detail: 'mai 2021', year: '2021', link: 'https://www.facebook.com/portfoliomm/posts/pfbid02pgEu4ovGsQ79DTsReVLhT2bswh3Q1H5VjQCc3tYu59Gug3W2cgHqBzdzeqhRZdral' },
-  { title: 'Street Photography France n°04', detail: 'avril 2024', year: '2024', link: 'https://streetphotographyfrance.fr/boutique/street-photography-france-no-4/' },
-  { title: 'Street Photography Women', detail: 'mars 2025', year: '2025', link: 'https://streetphotographyfrance.fr/boutique/street-photography-france-women-edition-speciale/' },
-  { title: 'À livres ouverts : lecteurs multiples, un seul monde…', detail: 'juillet 2025', year: '2025', link: 'https://nouveautes-editeurs.bnf.fr/accueil?id_declaration=10000001201496&utitre_livre=A_livres_ouverts' },
-  { title: 'La France en rue — Le livre du Salon de Soissons', detail: 'novembre 2025', year: '2025', link: 'https://streetphotographyfrance.fr/boutique/la-france-en-rue-le-livre-du-salon-de-soissons/' },
-  { title: 'Street Photography France Tome I', detail: 'décembre 2025', year: '2025', link: 'https://streetphotographyfrance.fr/boutique/street-photography-france-tome-i/' },
-  { title: 'Sur un air de photographies, musiques et musiciens', detail: 'décembre 2025', year: '2025', link: 'https://nouveautes-editeurs.bnf.fr/accueil?id_declaration=10000001263688&titre_livre=Sur_un_air_de_photographies_musiques_et_musiciens' },
+export const publications: {
+  title: string;
+  detail: string;
+  year: string;
+  link?: string;
+  images: string[];
+}[] = [
+  {
+    title: 'CosMag n°2',
+    detail: 'mai 2021',
+    year: '2021',
+    link: 'https://www.facebook.com/portfoliomm/posts/pfbid02pgEu4ovGsQ79DTsReVLhT2bswh3Q1H5VjQCc3tYu59Gug3W2cgHqBzdzeqhRZdral',
+    images: ['/assets/MAJ janvier 2026/5- Publications/01- CosMag numéro 2/01.jpg'],
+  },
+  {
+    title: 'Street Photography France n°04',
+    detail: 'avril 2024',
+    year: '2024',
+    link: 'https://streetphotographyfrance.fr/boutique/street-photography-france-no-4/',
+    images: [
+      '/assets/MAJ janvier 2026/5- Publications/02- Street Photography France n°04/01.jpg',
+      '/assets/MAJ janvier 2026/5- Publications/02- Street Photography France n°04/02.jpg',
+    ],
+  },
+  {
+    title: 'Street Photography Women',
+    detail: 'mars 2025',
+    year: '2025',
+    link: 'https://streetphotographyfrance.fr/boutique/street-photography-france-women-edition-speciale/',
+    images: [
+      '/assets/MAJ janvier 2026/5- Publications/03- Street Photography France Women/01.jpg',
+      '/assets/MAJ janvier 2026/5- Publications/03- Street Photography France Women/02.jpg',
+    ],
+  },
+  {
+    title: 'À livres ouverts : lecteurs multiples, un seul monde…',
+    detail: 'juillet 2025',
+    year: '2025',
+    link: 'https://nouveautes-editeurs.bnf.fr/accueil?id_declaration=10000001201496&utitre_livre=A_livres_ouverts',
+    images: [
+      '/assets/MAJ janvier 2026/5- Publications/04- À livres ouverts_ lecteurs multiples, un seul monde…/01.jpg',
+      '/assets/MAJ janvier 2026/5- Publications/04- À livres ouverts_ lecteurs multiples, un seul monde…/02.jpg',
+    ],
+  },
+  {
+    title: 'La France en rue — Le livre du Salon de Soissons',
+    detail: 'novembre 2025',
+    year: '2025',
+    link: 'https://streetphotographyfrance.fr/boutique/la-france-en-rue-le-livre-du-salon-de-soissons/',
+    images: ['/assets/MAJ janvier 2026/5- Publications/05- La France en rue - Le livre du Salon de Soissons/01.jpg'],
+  },
+  {
+    title: 'Street Photography France Tome I',
+    detail: 'décembre 2025',
+    year: '2025',
+    link: 'https://streetphotographyfrance.fr/boutique/street-photography-france-tome-i/',
+    images: [
+      '/assets/MAJ janvier 2026/5- Publications/06- Street Photography France Tome I/01.jpg',
+      '/assets/MAJ janvier 2026/5- Publications/06- Street Photography France Tome I/02.jpg',
+      '/assets/MAJ janvier 2026/5- Publications/06- Street Photography France Tome I/03.jpg',
+    ],
+  },
+  {
+    title: 'Sur un air de photographies, musiques et musiciens',
+    detail: 'décembre 2025',
+    year: '2025',
+    link: 'https://nouveautes-editeurs.bnf.fr/accueil?id_declaration=10000001263688&titre_livre=Sur_un_air_de_photographies_musiques_et_musiciens',
+    images: [
+      '/assets/MAJ janvier 2026/5- Publications/07- Sur un air de photographies, musiques et musiciens/01.jpg',
+      '/assets/MAJ janvier 2026/5- Publications/07- Sur un air de photographies, musiques et musiciens/02.jpg',
+      '/assets/MAJ janvier 2026/5- Publications/07- Sur un air de photographies, musiques et musiciens/03.jpg',
+    ],
+  },
 ];
 
 // Competitions
-export const competitions: { title: string; detail: string; year: string; link: string }[] = [
-  { title: 'Vos rues en noir et blanc', detail: 'Selected on streetphotographyfrance.fr', year: '2024', link: 'https://streetphotographyfrance.fr/resultat-du-concours-vos-rues-en-noir-et-blanc/' },
-  { title: 'Reading the Streets', detail: 'Selected by Mustafa Seven', year: '2025', link: 'https://streetphotographyfrance.fr/resultats-du-concours-reading-the-streets/' },
+export const competitions: {
+  title: string;
+  detail: string;
+  year: string;
+  link: string;
+  images: string[];
+}[] = [
+  {
+    title: 'Vos rues en noir et blanc',
+    detail: 'Selected on streetphotographyfrance.fr',
+    year: '2024',
+    link: 'https://streetphotographyfrance.fr/resultat-du-concours-vos-rues-en-noir-et-blanc/',
+    images: [
+      '/assets/6- Concours/2024- Vos rues en noir et blanc/01.jpg',
+      '/assets/6- Concours/2024- Vos rues en noir et blanc/02.jpg',
+    ],
+  },
+  {
+    title: 'Reading the Streets',
+    detail: 'Selected by Mustafa Seven',
+    year: '2025',
+    link: 'https://streetphotographyfrance.fr/resultats-du-concours-reading-the-streets/',
+    images: [
+      '/assets/6- Concours/2025- Reading the Streets/01.jpg',
+      '/assets/6- Concours/2025- Reading the Streets/02.jpg',
+    ],
+  },
 ];
 
 // Exhibitions
-export const exhibitions: { title: string; detail: string; place: string; date: string; link?: string }[] = [
-  { title: 'Rencontres Photographiques du 10e', detail: '“Que sont devenus les enfants fans d’Harry Potter…”', place: 'Bibliothèque François Villon · Paris', date: '2017', link: 'https://lachasseinfo.wordpress.com/2017/08/02/meja-miangola-razafimandimby-une-etoile-montante-de-la-photographie-malagasy/' },
-  { title: 'Lumos!', detail: 'Cosplay series', place: 'IKM Antsahavola · Madagascar', date: '2019', link: 'https://midi-madagasikara.mg/exposition-pluridisciplinaire-lumiere-sur-les-potterheads/' },
-  { title: 'La Quinzaine des Photographes', detail: 'Group show — reading', place: 'Aubusson · France', date: '2025', link: 'https://lesfilmsdelacaillasse.com/la-quinzaine/' },
-  { title: 'Paris on film', detail: 'Film group show', place: 'Sunbath Film-Lab · Paris', date: '2025', link: 'https://www.instagram.com/p/DOQO1BUDNg6/' },
-  { title: 'Festival de la Photo Urbaine', detail: '“Lignes de Ville, Lignes de Vie”', place: 'Fabrègues · France', date: '2025', link: 'https://www.festival-photo-urbaine.fr/edition-2025/meja-miangola/' },
-  { title: 'Body', detail: '“Mettre en lumière”', place: 'Galerie Kiff & Marais · Paris', date: '2025', link: 'https://www.kiffetmarais.com/agenda-de-la-galerie/event-one-y9tgh' },
+export const exhibitions: {
+  title: string;
+  detail: string;
+  place: string;
+  date: string;
+  link?: string;
+  images: string[];
+}[] = [
+  {
+    title: 'Rencontres Photographiques du 10e',
+    detail: '“Que sont devenus les enfants fans d’Harry Potter…”',
+    place: 'Bibliothèque François Villon · Paris',
+    date: '2017',
+    link: 'https://lachasseinfo.wordpress.com/2017/08/02/meja-miangola-razafimandimby-une-etoile-montante-de-la-photographie-malagasy/',
+    images: ['/assets/MAJ janvier 2026/7- Expositions/01- 2017 - Rencontres Photographiques du 10e Arrondissement/01.jpg'],
+  },
+  {
+    title: 'Lumos!',
+    detail: 'Cosplay series',
+    place: 'IKM Antsahavola · Madagascar',
+    date: '2019',
+    link: 'https://midi-madagasikara.mg/exposition-pluridisciplinaire-lumiere-sur-les-potterheads/',
+    images: ['/assets/MAJ janvier 2026/7- Expositions/02- 2019 - Lumos/01.jpg'],
+  },
+  {
+    title: 'La Quinzaine des Photographes',
+    detail: 'Group show — reading',
+    place: 'Aubusson · France',
+    date: '2025',
+    link: 'https://lesfilmsdelacaillasse.com/la-quinzaine/',
+    images: ['/assets/MAJ janvier 2026/7- Expositions/03- 2025- La Quinzaine des Photographes/01.jpg'],
+  },
+  {
+    title: 'Paris on film',
+    detail: 'Film group show',
+    place: 'Sunbath Film-Lab · Paris',
+    date: '2025',
+    link: 'https://www.instagram.com/p/DOQO1BUDNg6/',
+    images: [
+      '/assets/MAJ janvier 2026/7- Expositions/04- 2025 - Paris on Film/01.jpg',
+      '/assets/MAJ janvier 2026/7- Expositions/04- 2025 - Paris on Film/02.jpg',
+    ],
+  },
+  {
+    title: 'Festival de la Photo Urbaine',
+    detail: '“Lignes de Ville, Lignes de Vie”',
+    place: 'Fabrègues · France',
+    date: '2025',
+    link: 'https://www.festival-photo-urbaine.fr/edition-2025/meja-miangola/',
+    images: ['/assets/MAJ janvier 2026/7- Expositions/05- 2025 - Festival de la Photo Urbaine de Fabrègues/01.jpg'],
+  },
+  {
+    title: 'Body',
+    detail: '“Mettre en lumière”',
+    place: 'Galerie Kiff & Marais · Paris',
+    date: '2025',
+    link: 'https://www.kiffetmarais.com/agenda-de-la-galerie/event-one-y9tgh',
+    images: ['/assets/MAJ janvier 2026/7- Expositions/06- 2025 - Body/01.jpg'],
+  },
 ];
 
 // Contact section copy
