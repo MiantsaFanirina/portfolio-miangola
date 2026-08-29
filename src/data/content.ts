@@ -32,8 +32,8 @@ export const statement: { label: Bilingual; lines: Bilingual[] } = {
       fr: 'Je photographie l’ordinaire jusqu’à ce qu’il devienne extraordinaire.',
     },
     {
-      en: 'Film or phone, black or colour — the street is the studio.',
-      fr: 'Pellicule ou téléphone, noir ou couleur — la rue est le studio.',
+      en: 'Film or phone, black or colour: the street is the studio.',
+      fr: 'Pellicule ou téléphone, noir ou couleur : la rue est le studio.',
     },
     {
       en: 'A gaze held a fraction of a second longer than chance.',
@@ -58,7 +58,7 @@ export const editorial: {
   },
   paragraphs: [
     {
-      en: 'With film, every frame becomes a moment of reflection — an imposed slowness in which I must be more deliberate and choose each image with care. The grain and texture of the emulsion bring an authenticity I particularly treasure.',
+      en: 'With film, every frame becomes a moment of reflection: an imposed slowness in which I must be more deliberate and choose each image with care. The grain and texture of the emulsion bring an authenticity I particularly treasure.',
       fr: "Avec l'argentique, chaque prise de vue devient un moment de réflexion, une sorte de lenteur imposée où je me dois d'être plus minutieuse et de choisir chaque image avec soin. Le grain et la texture de la pellicule apportent une authenticité que j'apprécie particulièrement.",
     },
     {
@@ -84,12 +84,12 @@ export const about: {
   label: { en: 'About', fr: 'À propos' },
   title: { en: 'Meja Miangola', fr: 'Meja Miangola' },
   lead: {
-    en: 'Street photographer based between Paris and the world — film and phone, always in motion.',
-    fr: 'Photographe de rue, entre Paris et le monde — argentique et téléphone, toujours en mouvement.',
+      en: 'Street photographer based between Paris and the world: film and phone, always in motion.',
+      fr: 'Photographe de rue, entre Paris et le monde : argentique et téléphone, toujours en mouvement.',
   },
   paragraphs: [
     {
-      en: 'My name is Meja Miangola and I practice street photography, on film as well as on my phone. Self-taught at first, I later earned a photography diploma in 2018 after studying at an art school in Paris. Since then, street photography has become a genuine space of freedom for me — a place to nurture my passion beyond professional constraints.',
+      en: 'My name is Meja Miangola and I practice street photography, on film as well as on my phone. Self-taught at first, I later earned a photography diploma in 2018 after studying at an art school in Paris. Since then, street photography has become a genuine space of freedom for me: a place to nurture my passion beyond professional constraints.',
       fr: "Je m'appelle Meja Miangola et je pratique la photographie de rue, à l'argentique comme au téléphone. Autodidacte à mes débuts, j'ai ensuite obtenu un diplôme de photographie en 2018, à l'issue de mes études dans une école d'art à Paris. Depuis, la photographie de rue est devenue pour moi un véritable espace de liberté, où je cultive ma passion en dehors des contraintes professionnelles.",
     },
     {
@@ -97,7 +97,7 @@ export const about: {
       fr: "En 2024, j'ai rejoint Street Photography France, puis en 2026 le collectif Street Is A Woman. La diversité des styles et des approches au sein de ces communautés a nourri ma créativité et m'a poussée à dépasser mes propres limites artistiques.",
     },
     {
-      en: 'I like to seek out beauty in the everyday scenes that often escape other people’s attention. In the street I find moments charged with meaning — gestures, expressions, human interactions that, seen from another angle, become fascinating. Through my eye I try to reveal what may seem ordinary, yet holds its own beauty.',
+      en: 'I like to seek out beauty in the everyday scenes that often escape other people’s attention. In the street I find moments charged with meaning: gestures, expressions, human interactions that, seen from another angle, become fascinating. Through my eye I try to reveal what may seem ordinary, yet holds its own beauty.',
       fr: "J'aime explorer la beauté dans les scènes de la vie quotidienne qui échappent souvent à l'attention des autres. Dans la rue, je trouve des moments riches en significations, des gestes, des expressions ou des interactions humaines qui, sous un autre angle, deviennent fascinants. C'est à travers mon regard que je cherche à révéler ce qui peut sembler banal, mais qui a sa propre beauté.",
     },
   ],
@@ -208,8 +208,8 @@ export const publications: {
   },
   {
     title: {
-      en: 'France in the Street — The Soissons Salon book',
-      fr: 'La France en rue — Le livre du Salon de Soissons',
+      en: 'France in the Street: The Soissons Salon book',
+      fr: 'La France en rue : Le livre du Salon de Soissons',
     },
     detail: { en: 'November 2025', fr: 'novembre 2025' },
     year: '2025',
@@ -303,7 +303,7 @@ export const exhibitions: {
   },
   {
     title: { en: "The Photographers' Fortnight", fr: 'La Quinzaine des Photographes' },
-    detail: { en: 'Group show — reading', fr: 'Group show — reading' },
+    detail: { en: 'Group show: reading', fr: 'Group show: reading' },
     place: { en: 'Aubusson · France', fr: 'Aubusson · France' },
     date: '2025',
     link: 'https://lesfilmsdelacaillasse.com/la-quinzaine/',
@@ -353,16 +353,16 @@ export const contactCopy: {
   label: { en: 'Contact', fr: 'Contact' },
   title: { en: 'Let’s make something', fr: 'Faisons quelque chose' },
   intro: {
-    en: 'A commission, a print, a workshop — write me and I’ll reply from my own inbox.',
-    fr: 'Une commande, un tirage, un atelier — écrivez-moi, je réponds depuis ma boîte personnelle.',
+      en: 'A commission, a print, a workshop. Write me and I’ll reply from my own inbox.',
+      fr: 'Une commande, un tirage, un atelier. Écrivez-moi, je réponds depuis ma boîte personnelle.',
   },
   name: { en: 'Your name', fr: 'Votre nom' },
   email: { en: 'Your email', fr: 'Votre e-mail' },
   message: { en: 'Your message', fr: 'Votre message' },
   send: { en: 'Send message', fr: 'Envoyer le message' },
   note: {
-    en: 'This form opens your mail app — no address is published here.',
-    fr: 'Ce formulaire ouvre votre messagerie — aucune adresse n’est affichée ici.',
+      en: 'This form opens your mail app: no address is published here.',
+      fr: 'Ce formulaire ouvre votre messagerie : aucune adresse n’est affichée ici.',
   },
   follow: { en: 'Follow', fr: 'Suivre' },
 };

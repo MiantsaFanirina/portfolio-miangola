@@ -17,7 +17,7 @@ export function Immersive() {
       <motion.div ref={immersiveRef} className="immersive__media" style={{ y }}>
         <img
           src={asset(immersive)}
-          alt="Paris — La Défense transit"
+          alt="Paris – La Défense transit"
           className="immersive__img"
           loading="lazy"
           decoding="async"

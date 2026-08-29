@@ -97,7 +97,7 @@ export function Navigation() {
       }`}
     >
       <div className="nav__inner container">
-        <Link to="/" className="nav__brand" aria-label="Meja Miangola — home">
+        <Link to="/" className="nav__brand" aria-label="Meja Miangola, home">
           <img
             src={asset(theme === 'light' && scrolled ? brand.logoBlack : brand.logoWhite)}
             alt="Meja Miangola"

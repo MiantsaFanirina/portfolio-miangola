@@ -58,7 +58,7 @@ export const projects: Project[] = [
     1,
     { en: 'Between Black & White', fr: 'Entre Noir et Blanc' },
     { en: 'Black & white street', fr: 'Rue en noir et blanc' },
-    '2015 — 2025',
+    '2015–2025',
     'Paris · Prague · Bordeaux',
     {
       en: 'The choice of black and white refocuses the eye on form, contrast and raw emotion. Each photograph seeks to reveal the fleeting instant, the unexpected, the human within the anonymous. The series invites a silent contemplation in which the mundane becomes visual language.',
@@ -72,7 +72,7 @@ export const projects: Project[] = [
     2,
     { en: 'Chromatic Instants', fr: 'Instants Chromatiques' },
     { en: 'Colour street', fr: 'Rue en couleur' },
-    '2021 — 2025',
+    '2021–2025',
     'Paris · Bruxelles · Lyon',
     {
       en: 'Through this work, colour becomes a way to intensify reality, to make visible the emotions and contrasts of the urban environment. Hues draw the eye and tell of a mood, a meeting, a place.',
@@ -85,7 +85,7 @@ export const projects: Project[] = [
     3,
     { en: 'City Lines, Life Lines', fr: 'Lignes de Ville, Lignes de Vie' },
     { en: 'Architecture & urban', fr: 'Architecture & urbain' },
-    '2023 — 2025',
+    '2023–2025',
     'Paris · Fabrègues',
     {
       en: "‘City Lines, Life Lines’ explores the interplay between architecture and urban everyday life. Through shadow, perspective and geometry, the series captures the rigour of structures and their dialogue with the people who inhabit them. Monumental staircases, endless corridors and stark contrasts reveal a city sculpted by light and alive with movement.",
@@ -98,7 +98,7 @@ export const projects: Project[] = [
     4,
     { en: 'Commute, Work, Photo', fr: 'Métro, Boulot, Photo' },
     { en: 'Transit diary', fr: 'Journal de transit' },
-    '2022 — 2025',
+    '2022–2025',
     'Paris · Prague · Bruxelles',
     {
       en: '‘Commute, Work, Photo’ captures daily routine through the lens of public transport. The frames seize the suspended instants between two stations, where the everyday mingles with collective solitude. It is a visual exploration of the lives that cross each other daily in this space of passage.',
@@ -111,10 +111,10 @@ export const projects: Project[] = [
     5,
     { en: 'Double Vision', fr: 'Double Vision' },
     { en: 'Reflections', fr: 'Reflets' },
-    '2024 — 2025',
+    '2024–2025',
     'Paris · Lorient',
     {
-      en: '‘Double Vision’ plays with reflections to blur the frontier between real and illusion. Each photograph explores the duplication, symmetry or deformation of the world through water, glass or mirrors. These reflections reveal another reading of the everyday — blurrier, more sensitive.',
+      en: '‘Double Vision’ plays with reflections to blur the frontier between real and illusion. Each photograph explores the duplication, symmetry or deformation of the world through water, glass or mirrors. These reflections reveal another reading of the everyday: blurrier, more sensitive.',
       fr: "« Double Vision » joue avec les reflets pour brouiller la frontière entre réel et illusion. Chaque photo explore la duplication, la symétrie ou la déformation du monde par l'eau, le verre ou les miroirs. Ces reflets révèlent une autre lecture du quotidien, plus floue, plus sensible.",
     },
   ),
@@ -124,10 +124,10 @@ export const projects: Project[] = [
     6,
     { en: 'A Window Story', fr: 'Une histoire de fenêtre' },
     { en: 'Interiors & thresholds', fr: 'Intérieurs & seuils' },
-    '2024 — 2025',
+    '2024–2025',
     'Paris · Chevreuse',
     {
-      en: '‘A Window Story’ explores that fragile threshold between inside and outside. Each photograph catches a gaze, a light, a reflection — so many fragments of life. Windows become frames, barriers or passages.',
+      en: '‘A Window Story’ explores that fragile threshold between inside and outside. Each photograph catches a gaze, a light, a reflection: so many fragments of life. Windows become frames, barriers or passages.',
       fr: "« Une histoire de fenêtre » explore ce fragile seuil entre l'intérieur et l'extérieur. Chaque photo capte un regard, une lumière, un reflet, comme autant de fragments de vie. Les fenêtres deviennent des cadres, des barrières ou des passages.",
     },
   ),

@@ -54,7 +54,7 @@
   }
 }
 
-// Reveal primitives — toggled by IntersectionObserver (adds .is-inview)
+// Reveal primitives: toggled by IntersectionObserver (adds .is-inview)
 .reveal {
   opacity: 0;
   will-change: opacity, transform;

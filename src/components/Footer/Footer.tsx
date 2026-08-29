@@ -28,17 +28,17 @@ export function Footer() {
 
         <nav className="footer__nav" aria-label="Footer">
           <span className="footer__col-title t-label">{t.footer.navTitle}</span>
-          <Link to="/" className="footer__link">— {t.common.selectedWork}</Link>
-          <Link to="/about" className="footer__link">— {t.nav.about}</Link>
-          <a href="/#services" className="footer__link" onClick={(e) => { e.preventDefault(); scrollToId('services'); }}>— {t.nav.services}</a>
-          <a href="/#contact" className="footer__link" onClick={(e) => { e.preventDefault(); scrollToId('contact'); }}>— {t.nav.contact}</a>
+          <Link to="/" className="footer__link">• {t.common.selectedWork}</Link>
+          <Link to="/about" className="footer__link">• {t.nav.about}</Link>
+          <a href="/#services" className="footer__link" onClick={(e) => { e.preventDefault(); scrollToId('services'); }}>• {t.nav.services}</a>
+          <a href="/#contact" className="footer__link" onClick={(e) => { e.preventDefault(); scrollToId('contact'); }}>• {t.nav.contact}</a>
         </nav>
 
         <div className="footer__contact">
           <span className="footer__col-title t-label">{t.footer.contactTitle}</span>
-          <a href={`mailto:${contact.email}`} className="footer__link">— {contact.email}</a>
-          <a href={contact.instagram} target="_blank" rel="noreferrer" className="footer__link">— Instagram</a>
-          <a href={contact.spf} target="_blank" rel="noreferrer" className="footer__link">— Street Photography France</a>
+          <a href={`mailto:${contact.email}`} className="footer__link">• {contact.email}</a>
+          <a href={contact.instagram} target="_blank" rel="noreferrer" className="footer__link">• Instagram</a>
+          <a href={contact.spf} target="_blank" rel="noreferrer" className="footer__link">• Street Photography France</a>
         </div>
 
         <button type="button" className="footer__top" onClick={() => scrollToId('top')}>

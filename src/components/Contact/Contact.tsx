@@ -10,9 +10,9 @@ export function Contact() {
 
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const subject = encodeURIComponent(`Portfolio — message from ${form.name || 'a visitor'}`);
+    const subject = encodeURIComponent(`Portfolio: message from ${form.name || 'a visitor'}`);
     const body = encodeURIComponent(
-      `${form.message}\n\n— ${form.name}\n${form.email}`,
+      `${form.message}\n\n${form.name}\n${form.email}`,
     );
     window.location.href = `mailto:${contact.email}?subject=${subject}&body=${body}`;
   };

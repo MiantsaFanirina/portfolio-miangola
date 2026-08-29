@@ -30,7 +30,7 @@ export function orientationOf(src: string): Orientation {
   return 'square';
 }
 
-// Raw width / height ratio (no clamping) — used to render images at their real proportions.
+// Raw width / height ratio (no clamping), used to render images at their real proportions.
 export function ratioOf(src: string): number {
   const m = (meta as Record<string, { r: number } | null>)[src];
   return m?.r ?? 1;
